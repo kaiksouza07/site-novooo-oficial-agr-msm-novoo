@@ -1,0 +1,157 @@
+/* Adicione esses estilos ao seu arquivo styles.css */
+
+/* Alinhar o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilizar a seção de vídeo */
+  .featured-video {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%; /* Defina a largura da seção de vídeo */
+    float: left; /* Faça a seção de vídeo flutuar à esquerda */
+  }/* Adicione esses estilos ao seu arquivo styles.css */
+
+/* Alinhar o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilizar a seção de vídeo */
+  .featured-video {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%; /* Defina a largura da seção de vídeo */
+    float: left; /* Faça a seção de vídeo flutuar à esquerda */
+  }
+  
+  .featured-video h2 {
+    margin-top: 0;
+  }
+  
+  .featured-video video {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilizar a seção de streams */
+  .streams {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%; /* Defina a largura da seção de streams */
+    float: right; /* Faça a seção de streams flutuar à direita */
+  }
+  
+  .streams h2 {
+    margin-top: 0;
+  }
+  
+  .stream {
+    display: inline-block; /* Faça os streams serem exibidos lado a lado */
+    margin: 20px;
+    width: calc(33.33% - 40px);
+  }
+  
+  .stream img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .stream h3 {
+    margin-top: 0;
+  }
+  
+  .stream p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Adicione um clearfix para limpar a float */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Adicione a classe clearfix ao elemento pai */
+  main {
+    overflow: auto; /* Adicione overflow auto para que o pai contenha os filhos flutuantes */
+  }
+  
+  .featured-video h2 {
+    margin-top: 0;
+  }
+  
+  .featured-video video {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilizar a seção de streams */
+  .streams {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%; /* Defina a largura da seção de streams */
+    float: right; /* Faça a seção de streams flutuar à direita */
+  }
+  
+  .streams h2 {
+    margin-top: 0;
+  }
+  
+  .stream {
+    display: inline-block; /* Faça os streams serem exibidos lado a lado */
+    margin: 20px;
+    width: calc(33.33% - 40px);
+  }
+  
+  .stream img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .stream h3 {
+    margin-top: 0;
+  }
+  
+  .stream p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Adicione um clearfix para limpar a float */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Adicione a classe clearfix ao elemento pai */
+  main {
+    overflow: auto; /* Adicione overflow auto para que o pai contenha os filhos flutuantes */
+  }
