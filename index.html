@@ -5,19 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Streaming de Games</title>
     <link rel="stylesheet" type="text/css" href="style.css"> <!-- Linkar o arquivo style.css -->
+    <style>
+        /* Adicionei estilos para organizar a dashboard e o painel */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .stream {
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .stream img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Dashboard de Streaming de Games</h1>
+    <header class="header">
+        <h1>Streaming de Games</h1>
     </header>
-    <main class="clearfix">
-        <section class="featured-video">
-            <h2>Prévia do Jogo</h2>
-            <video controls>
-                <source src="https://www.youtube.com/watch?v=YeZxQIbGt4g" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
-        </section>
+    <main class="dashboard">
         <section class="streams">
             <h2>Principais Streams</h2>
             <div class="stream">
@@ -34,6 +64,16 @@
                 <img src="stream3.jpg" alt="Streamer 3">
                 <h3>Streamer 3</h3>
                 <p>Jogo: Game Title 3</p>
+            </div>
+            <div class="stream">
+                <img src="stream4.jpg" alt="Streamer 4">
+                <h3>Streamer 4</h3>
+                <p>Jogo: Game Title 4</p>
+            </div>
+            <div class="stream">
+                <img src="stream5.jpg" alt="Streamer 5">
+                <h3>Streamer 5</h3>
+                <p>Jogo: Game Title 5</p>
             </div>
         </section>
     </main>
